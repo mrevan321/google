@@ -172,4 +172,34 @@ a.button:hover {
     font-size: 14px;
 }
 
-i{}
+/*media queries*/
+
+@media (max-width: 700px){
+.search-box input {width:80%;
+	}
+}
+
+@media (max-width: 465px) {
+.profile-img {display: none;
+}
+}
+
+@media (max-width:850px ){
+	ul.right-site-links{margin: 0 auto;
+		padding: 0;
+		width: 100%;
+		text-align: center;}
+}
+
+
+@media (max-width: 850px){
+	ul.left-site-links{margin: 0 auto;
+		padding: 0;
+		width: 100%;
+		text-align: center;}
+}
+
+@media (max-width:415px ){
+	.share-button{display: none;}
+}
+
